@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Checkout</title>
+    </head>
+
+    <body>
+        <div class="main-wrapper">
+            <div class="product-box">
+                <img src="nikeshoe.png" alt="shoe">
+                <h3>Nike Air Max <br>"Total Orange"</h3>
+
+            </div>
+            <div class="checkout-box">
+                <h2>Payment Info</h2>
+                <form>
+                    <label class="name">
+                        <p>Name</p>
+                        <input type="name" class="form-name" placeholder="First and Last">
+                    </label>
+                    <label class="cardnumber">
+                        <p>Card Number</p>
+                        <input type="text" class="card-number" placeholder="1234 1234 1234 1234">
+                    </label>
+                    <div class="date-cvv">
+                        <label for="date">
+                            <p>Expiration Date</p>
+                            <input type="text" class="ex-date" placeholder="MM / YYYY">
+                        </label>
+                        <label for="cvv">
+                            <p>CVV</p>
+                            <input type="password" class="cvv" placeholder="CVV">
+                        </label>
+                    </div>
+                    <div class="payment-amount">
+                        <p>Payment Amount:</p>
+                        <h3>$120</h3>
+                    </div>
+
+                    <button type="submit">PAY</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

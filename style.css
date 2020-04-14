@@ -1,0 +1,214 @@
+body {
+  background: #154972;
+  height: 100vh;
+}
+
+.main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.product-box {
+  width: 500px;
+  height: 500px;
+  background: #E5543F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.1), 2px 5px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.1), 2px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.product-box img {
+  width: 365px;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  margin-right: 90px;
+  margin-top: 50px;
+}
+
+.product-box h3 {
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  font: 20px Helvetica;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 600px) {
+  .product-box {
+    display: none;
+  }
+}
+
+.checkout-box {
+  width: 440px;
+  height: 600px;
+  background: #f2f2f2;
+  border-radius: 15px;
+  margin-left: -30px;
+  -webkit-box-shadow: 10px 25px 30px 30px rgba(0, 0, 0, 0.1), 2px 5px 5px 2px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 25px 30px 30px rgba(0, 0, 0, 0.1), 2px 5px 5px 2px rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkout-box h2 {
+  font-family: Helvetica;
+  color: #595959;
+  margin-top: 35px;
+}
+
+.checkout-box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.checkout-box label {
+  margin-top: 30px;
+}
+
+.checkout-box p {
+  color: #E5543F;
+  font-family: Helvetica;
+}
+
+.checkout-box .form-name {
+  width: 300px;
+  height: 40px;
+  background: #f2f2f2;
+  font-size: 15px;
+  border: solid 1px #E5543F;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: -30px;
+}
+
+.checkout-box .card-number {
+  width: 300px;
+  height: 40px;
+  background: #f2f2f2;
+  font-size: 15px;
+  border: solid 1px #E5543F;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: -30px;
+}
+
+.checkout-box .date-cvv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.checkout-box .date-cvv .ex-date {
+  width: 190px;
+  height: 40px;
+  background: #f2f2f2;
+  font-size: 15px;
+  border: solid 1px #E5543F;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: -30px;
+}
+
+.checkout-box .date-cvv .cvv {
+  width: 100px;
+  height: 40px;
+  background: #f2f2f2;
+  font-size: 15px;
+  border: solid 1px #E5543F;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: -30px;
+  margin-right: 10px;
+}
+
+.checkout-box .payment-amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.checkout-box .payment-amount h3 {
+  font-family: Helvetica;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #595959;
+}
+
+.checkout-box button {
+  width: 190px;
+  height: 60px;
+  background: #E5543F;
+  border-radius: 25px;
+  border: none;
+  -webkit-box-shadow: 7px 20px 25px 25px rgba(0, 0, 0, 0.1), 1px 3px 3px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 7px 20px 25px 25px rgba(0, 0, 0, 0.1), 1px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  font-size: 24px;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: 9px;
+  cursor: pointer;
+}
+
+.checkout-box button:hover {
+  width: 195px;
+  height: 63px;
+}
+/*# sourceMappingURL=style.css.map */
